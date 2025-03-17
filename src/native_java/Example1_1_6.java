@@ -2,8 +2,8 @@ package native_java;
 
 import java.io.*;
 
-public class Example1_1_6{
-	public static void main(String[] args) throws IOException{
+public class Example1_1_6 {
+	public static void main(String[] args) throws IOException {
 		PrintWriter theout = new PrintWriter(new FileWriter("src/native_java/wutang.txt", true));
 		theout.println("RZA");
 		theout.println("GZA");
@@ -14,6 +14,6 @@ public class Example1_1_6{
 		theout.println("Raekwon");
 		theout.println("Masta Killa");
 		theout.println("Cappadonna");
-		theout.close();	
+		theout.close();
 	}
 }

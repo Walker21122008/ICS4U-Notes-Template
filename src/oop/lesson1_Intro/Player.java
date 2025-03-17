@@ -22,14 +22,14 @@ public class Player{
   * @param the hat assigned to the player.
   * @param the pet of the assigned player. 
   */
-  public Player(String newUsername, String newRole, String newColor, String newHat, String newPet){
+  public Player(String username, String role, String color, String hat, String pet){
     // initialize the instance variables
     this.aliveYN = true;
-    this.username = newUsername;
-    this.role = newRole;
-    this.color = newColor;
-    this.hat = newHat;
-    this.pet = newPet;
+    this.username = username;
+    this.role = role;
+    this.color = color;
+    this.hat = hat;
+    this.pet = pet;
     
   }
 
